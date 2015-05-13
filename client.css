@@ -1,0 +1,168 @@
+table,
+td,
+tr {
+    border: 2px solid #FFFFFF;
+    background-color: #247BA0;
+}
+table {
+    border-collapse: collapse;
+    position: absolute;
+    table-layout: fixed;
+    width: 500px;
+    top: 20px;
+}
+td {
+    height: 50px;
+    width: 50px;
+}
+#menu {
+    height: 500px;
+    width: 320px;
+    position: absolute;
+    left: 600px;
+    top: 30px;
+    border: 1px solid black;
+}
+
+.ship {
+    position: relative;
+}
+
+#ship1 {
+    width: 49px;
+    height: 50px;
+    background: url(images/ship1.png) no-repeat;
+
+}
+#ship2 {
+    width: 100px;
+    height: 50px;
+    background: url(images/ship2.png) no-repeat;
+}
+#ship4 {
+    width: 210px;
+    height: 50px;
+    background: url(images/ship4.png) no-repeat;
+}
+#screen1{
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  position: absolute;
+}
+#screen2{
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  position: absolute;
+
+}
+
+#gridCPU{
+  position: absolute;
+  left: 600px;
+}
+
+#talkie{
+  position: relative;
+  background-color: #034748;
+  height: 100px;
+}
+
+#talkie > span{
+  position: relative;
+  left: 70px;
+  color: white;
+}
+
+#walkie{
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 80px;
+	height: 80px;
+	background-color: #ffffff;
+  border: 2px solid green;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+  background-image: url(images/walkie.png);
+}
+
+.battleButton{
+  height: 30px;
+  width: 150px;
+  color: #034748;
+  border: 2px solid green;
+  background-color: #ffffff;
+  font-size: 1.5em;
+}
+
+.battleMenu{
+  position: relative;
+  top: 200px;
+  left: 50px;
+  height: 50px;
+  width: 280px;
+  color: #034748;
+  border: 2px solid green;
+  background-color: #ffffff;
+  font-size: 2.8em;
+  padding: 10px;
+}
+
+.death{
+  height: 50px;
+  width: 50px;
+  background: url(images/fire.gif);
+  position: absolute;
+  z-index: 100;
+}
+
+#myWater{
+  position: absolute;
+  top: 550px;
+  left: 40px;
+}
+
+#hisWater{
+  position: absolute;
+  top: 550px;
+  left: 700px;
+}
+
+#time{
+  position: absolute;
+  top: -15px;
+  left: 100px;
+}
+
+#screen3{
+  height: 100%;
+  width: 100%;
+  visibility: visible;
+  position: absolute;
+  background: url(images/battleship.jpg);
+}
+
+#screen4{
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  position: absolute;
+  background: url(images/battleship.jpg);
+}
+
+#screen5{
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  position: absolute;
+  background: url(images/battleship.jpg);
+}
+
+#cX{
+   position: absolute;
+   top: 150px;
+   left: 50px;
+}
